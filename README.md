@@ -23,7 +23,7 @@ A small wrapper library for the [Keycloak JavaScript adapter](https://www.keyclo
 Install [jwt-decode](https://www.npmjs.com/package/jwt-decode) to decode the jwt token and our wrapper library with npm.
 
 ```bash
-npm install jwt-decode @baloise/vue-keycloak
+npm install jwt-decode @softinite/vue3-keycloak
 ```
 
 ## Use plugin
@@ -31,7 +31,7 @@ npm install jwt-decode @baloise/vue-keycloak
 Import the library into your `src/main.ts` file or any other entry point.
 
 ```typescript
-import { vueKeycloak } from '@baloise/vue-keycloak'
+import { vueKeycloak } from '@softinite/vue3-keycloak'
 ```
 
 Apply the library to the vue app instance.
