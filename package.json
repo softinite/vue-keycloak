@@ -1,16 +1,16 @@
 {
   "name": "@softinite/vue3-keycloak",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Keycloak plugin for Vue3",
   "author": {
     "name": "Sergiu Ivasenco",
     "email": "contact@softinite.com",
-    "url": "https://github.com/softinite/vue-keycloak"
+    "url": "https://github.com/softinite/vue3-keycloak"
   },
-  "homepage": "https://github.com/softinite/vue-keycloak",
+  "homepage": "https://github.com/softinite/vue3-keycloak",
   "repository": {
     "type": "git",
-    "url": "https://github.com/softinite/vue-keycloak"
+    "url": "https://github.com/softinite/vue3-keycloak"
   },
   "scripts": {
     "test": "jest",
