@@ -98,7 +98,7 @@ This function checks if the token is still valid and will update it if it is exp
 
 ```typescript
 import { $axios } from '@baloise/vue-axios'
-import { getToken } from '@baloise/vue-keycloak'
+import { getToken } from '@sofinite/vue3-keycloak'
 
 const axiosApiInstance = $axios.create()
 
@@ -121,7 +121,7 @@ axiosApiInstance.interceptors.request.use(
 
 ```typescript
 import { computed, defineComponent } from 'vue'
-import { useKeycloak } from '@baloise/vue-keycloak'
+import { useKeycloak } from '@sofinite/vue3-keycloak'
 
 export default defineComponent({
   setup() {
@@ -141,7 +141,7 @@ export default defineComponent({
 The `useKeycloak` function exposes the following reactive state.
 
 ```typescript
-import { useKeycloak } from '@baloise/vue-keycloak'
+import { useKeycloak } from '@sofinite/vue3-keycloak'
 
 const {
   isAuthenticated,

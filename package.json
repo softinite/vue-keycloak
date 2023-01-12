@@ -1,6 +1,6 @@
 {
   "name": "@softinite/vue3-keycloak",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Keycloak plugin for Vue3",
   "author": {
     "name": "Sergiu Ivasenco",
