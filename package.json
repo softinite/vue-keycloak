@@ -1,16 +1,16 @@
 {
-  "name": "@baloise/vue-keycloak",
-  "version": "1.4.0",
-  "description": "Keycloak plugin for Vue3 and Composition API",
+  "name": "@softinite/vue3-keycloak",
+  "version": "1.0.0",
+  "description": "Keycloak plugin for Vue3",
   "author": {
-    "name": "Gery Hirschfeld",
-    "email": "gerhard.hirschfeld@baloise.ch",
-    "url": "https://github.com/hirsch88"
+    "name": "Sergiu Ivasenco",
+    "email": "contact@softinite.com",
+    "url": "https://github.com/softinite/vue-keycloak"
   },
-  "homepage": "https://github.com/baloise/vue-keycloak",
+  "homepage": "https://github.com/softinite/vue-keycloak",
   "repository": {
     "type": "git",
-    "url": "https://github.com/baloise/vue-keycloak.git"
+    "url": "https://github.com/softinite/vue-keycloak"
   },
   "scripts": {
     "test": "jest",
@@ -39,8 +39,8 @@
   "license": "Apache-2.0",
   "peerDependencies": {
     "jwt-decode": "^3.1.2",
-    "keycloak-js": "^12.0.4",
-    "vue": "^3.0.8"
+    "keycloak-js": "^20.0.3",
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
@@ -58,13 +58,13 @@
     "jest": "^26.6.3",
     "jwt-decode": "^3.1.2",
     "keycloak-js": "^12.0.4",
-    "prettier": "^2.2.1",
+    "prettier": "^2.8.2",
     "rimraf": "^3.0.2",
-    "rollup": "^2.43.0",
-    "semantic-release": "^17.4.2",
+    "rollup": "^2.79.1",
+    "semantic-release": "^17.4.7",
     "ts-jest": "^26.5.4",
-    "typescript": "^4.2.3",
-    "vue": "^3.0.8"
+    "typescript": "^4.9.4",
+    "vue": "^3.2.45"
   },
   "dependencies": {}
 }
