@@ -20,10 +20,10 @@ A small wrapper library for the [Keycloak JavaScript adapter](https://www.keyclo
 
 ## Instalation
 
-Install the [keycloak-js](https://www.keycloak.org/docs/latest/securing_apps/#_javascript_adapter) package , [jwt-decode](https://www.npmjs.com/package/jwt-decode) to decode the jwt token and our wrapper library with npm.
+Install [jwt-decode](https://www.npmjs.com/package/jwt-decode) to decode the jwt token and our wrapper library with npm.
 
 ```bash
-npm install keycloak-js jwt-decode @baloise/vue-keycloak
+npm install jwt-decode @baloise/vue-keycloak
 ```
 
 ## Use plugin
@@ -179,6 +179,3 @@ const {
 | hasRoles         | `(roles: string[]) => boolean`                   | `hasRoles` returns true if the user has all the given roles.                       |
 | hasResourceRoles | `(roles: string[], resource: string) => boolean` | `hasResourceRoles` returns true if the user has all the given roles in a resource. |
 
-# License
-
-Apache-2.0 Licensed | Copyright © 2021-present Gery Hirschfeld & Contributors
